@@ -1,0 +1,18 @@
+{
+  "name": "ielts-assistant",
+  "version": "1.0.0",
+  "description": "IELTS Assistant App",
+  "main": "main.js",
+  "scripts": {
+    "dev": "uni -p app-plus"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.1",
+    "@dcloudio/uni-ui": "^1.4.20",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "^2.0.1",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.1"
+  }
+}

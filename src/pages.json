@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "Chat"
+      }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "Search"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "Profile"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/chat.png",
+        "selectedIconPath": "static/chat_active.png",
+        "text": "Chat"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/search.png",
+        "selectedIconPath": "static/search_active.png",
+        "text": "Search"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/profile.png",
+        "selectedIconPath": "static/profile_active.png",
+        "text": "Profile"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "IELTS Assistant",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
